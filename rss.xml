@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Benny O]]></title><description><![CDATA[PersonalBlog is a GatsbyJS starter.]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 11 Aug 2018 15:50:49 GMT</lastBuildDate><item><title><![CDATA[[Docker-101] Tutorial 1]]></title><description><![CDATA[Task:  To create a container to host HTML with Alpine version of Nginx. Suppose we got a html file named  . Create a    Build a docker…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/docker-1/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/docker-1/</guid><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Benny O]]></title><description><![CDATA[PersonalBlog is a GatsbyJS starter.]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 11 Aug 2018 16:12:14 GMT</lastBuildDate><item><title><![CDATA[[Docker-101] Tutorial 1]]></title><description><![CDATA[Task:  To create a container to host HTML with Alpine version of Nginx. Suppose we got a html file named  . Create a    Build a docker…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/docker-1/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/docker-1/</guid><content:encoded>&lt;p&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; ; max-width: 744px; margin-left: auto; margin-right: auto;&quot;
@@ -12,10 +12,10 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;nginx-docker&quot;
         title=&quot;&quot;
-        src=&quot;/opw0011-blog/static/nginx-docker-cb5dd7ac2b9766774ea8de4d18e4bcb6-1dbcd.jpg&quot;
-        srcset=&quot;/opw0011-blog/static/nginx-docker-cb5dd7ac2b9766774ea8de4d18e4bcb6-ff97a.jpg 200w,
-/opw0011-blog/static/nginx-docker-cb5dd7ac2b9766774ea8de4d18e4bcb6-f0307.jpg 400w,
-/opw0011-blog/static/nginx-docker-cb5dd7ac2b9766774ea8de4d18e4bcb6-1dbcd.jpg 744w&quot;
+        src=&quot;/static/nginx-docker-cb5dd7ac2b9766774ea8de4d18e4bcb6-1dbcd.jpg&quot;
+        srcset=&quot;/static/nginx-docker-cb5dd7ac2b9766774ea8de4d18e4bcb6-ff97a.jpg 200w,
+/static/nginx-docker-cb5dd7ac2b9766774ea8de4d18e4bcb6-f0307.jpg 400w,
+/static/nginx-docker-cb5dd7ac2b9766774ea8de4d18e4bcb6-1dbcd.jpg 744w&quot;
         sizes=&quot;(max-width: 744px) 100vw, 744px&quot;
       /&gt;
     &lt;/span&gt;
@@ -74,9 +74,9 @@ webserver           v1                  028eb21675d7        6 minutes ago       
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;hello-world.png&quot;
         title=&quot;&quot;
-        src=&quot;/opw0011-blog/static/hello-world-5ca07972067eb8d272d6292ba1f59006-f1f01.png&quot;
-        srcset=&quot;/opw0011-blog/static/hello-world-5ca07972067eb8d272d6292ba1f59006-11960.png 200w,
-/opw0011-blog/static/hello-world-5ca07972067eb8d272d6292ba1f59006-f1f01.png 256w&quot;
+        src=&quot;/static/hello-world-5ca07972067eb8d272d6292ba1f59006-f1f01.png&quot;
+        srcset=&quot;/static/hello-world-5ca07972067eb8d272d6292ba1f59006-11960.png 200w,
+/static/hello-world-5ca07972067eb8d272d6292ba1f59006-f1f01.png 256w&quot;
         sizes=&quot;(max-width: 256px) 100vw, 256px&quot;
       /&gt;
     &lt;/span&gt;
