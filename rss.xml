@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Benny O]]></title><description><![CDATA[PersonalBlog is a GatsbyJS starter.]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 11 Aug 2018 16:12:14 GMT</lastBuildDate><item><title><![CDATA[[Docker-101] Tutorial 1]]></title><description><![CDATA[Task:  To create a container to host HTML with Alpine version of Nginx. Suppose we got a html file named  . Create a    Build a docker…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/docker-1/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/docker-1/</guid><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Benny O]]></title><description><![CDATA[PersonalBlog is a GatsbyJS starter.]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 18 Aug 2018 13:23:03 GMT</lastBuildDate><item><title><![CDATA[[Docker-101] Tutorial 2]]></title><description><![CDATA[Create   is an image build step, the state of the container after a RUN command will be committed to the docker image. A Dockerfile can have…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/docker-2/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/docker-2/</guid><content:encoded>&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 500px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.199999999999996%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAAB70lEQVQoz42QwW/SYBjG+2eoJz34L3hTiQczk12MmoUrmpiMXdUYOJmxxAkGMYoetkm2pG5opxNWXXCDzGEROlagUKuODShrS1tKYWtltPXrIJ5M5nt4vyfP9/7yvN8HGYZhmqbc6SCprclIHOgDVe2bxxZkTWvqrWnk5D2/7dErulK9n6BekxWlKa1uYDvVGi+IUlMu/fhJkCUgantsQ5Ra7bYFd/fbY/MxaAI5+zR66vH70/7IyFwMTW+tfUkGpkILS1H43Yc3ERTPFSYCz+eXoi9n4ZX4uqppg+SFTGl47vOJ4Crk/XRhKlYTRGBu5kk8X8gWit+yBNB5it5I44mvKQzPcg0BDICnWTA4Fanxsbi9Ru12u7/N/y7on3/T6/VARxAkHA4Doeu61Q29P/sXsZIZhqEoymJ0o67Q6mGnz7tcLp/PB3SOyMuyDMR+tyUeMLrRG8Dlctlutw9dGVpPJDM8cgc9N5u7y3Hs6KjTZrsYCoWWo+ily+edY86mIhT5BLEX25ayAxhFUY/HE3wRDPifrTBPbiNnvNjVTSJ9/doNh8MxMzPtnfSN3BxO41hHa2HVt6nqYoGLG6a1OcSybL1eF0Vhd6eiHHKL5EOqkQQXMAy73W6wLc/z4w889HcamBWZ/CVm2pp4FGz8AV9+8QeKn/JBAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;docker-nodejs&quot;
+        title=&quot;&quot;
+        src=&quot;/static/docker-nodejs-8c605562363e910fcb8b7508a739a8c0-058ac.png&quot;
+        srcset=&quot;/static/docker-nodejs-8c605562363e910fcb8b7508a739a8c0-931a2.png 200w,
+/static/docker-nodejs-8c605562363e910fcb8b7508a739a8c0-71e03.png 400w,
+/static/docker-nodejs-8c605562363e910fcb8b7508a739a8c0-058ac.png 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create &lt;code class=&quot;language-text&quot;&gt;Dockerfile&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;FROM node:7-alpine
+
+# Create a directory
+RUN mkdir -p /src/app
+
+# To ensure that a future commands are executed in /src/app
+WORKDIR /src/app
+
+# Copy from &amp;lt;host_path&amp;gt; to &amp;lt;container_path&amp;gt;
+COPY . /src/app 
+
+RUN npm install
+
+EXPOSE 3000
+
+# will be run when container launch
+CMD npm start&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;RUN&lt;/code&gt; is an image build step, the state of the container after a RUN command will be committed to the docker image. A Dockerfile can have many RUN steps that layer on top of one another to build the image.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;CMD&lt;/code&gt; is the command the container executes by default when you launch the built image. A Dockerfile can only have one CMD. The CMD can be overridden when starting a container with docker run $image $other_command. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build docker images&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker build -t nodejs:v1 .&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+nodejs              v1                  a365133f2e28        6 seconds ago       67.5MB&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Run container with 80 port&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker run -d -p 80:3000 --name node-app nodejs:v1
+3dbe413b3a1c00aadbf97a44516562e49df84c688a6b6eb872aa4b161bc678a4&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
+3dbe413b3a1c        nodejs:v1           &amp;quot;/bin/sh -c &amp;#39;npm sta…&amp;quot;   28 seconds ago      Up 28 seconds       0.0.0.0:80-&amp;gt;3000/tcp   node-app&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[[Docker-101] Tutorial 1]]></title><description><![CDATA[Task:  To create a container to host HTML with Alpine version of Nginx. Suppose we got a html file named  . Create a    Build a docker…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/docker-1/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/docker-1/</guid><content:encoded>&lt;p&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; ; max-width: 744px; margin-left: auto; margin-right: auto;&quot;
