@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" prefix="og: http://ogp.me/ns#"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/component---src-layouts-index-js-0c19a18ab824f89f4998.js" as="script"/><link rel="preload" href="/component---src-templates-post-template-js-3455ffcd8aa62613f79d.js" as="script"/><link rel="preload" href="/path---docker-2-42612b1f57ba0d18e459.js" as="script"/><link rel="preload" href="/app-3fca73a6fe24c2c87cbf.js" as="script"/><link rel="preload" href="/commons-7c4cf74b13a2a0b920dd.js" as="script"/><style type="text/css" id="server-side-jss">html {
+<!DOCTYPE html><html lang="en" prefix="og: http://ogp.me/ns#"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/component---src-layouts-index-js-0c19a18ab824f89f4998.js" as="script"/><link rel="preload" href="/component---src-templates-post-template-js-3455ffcd8aa62613f79d.js" as="script"/><link rel="preload" href="/path---sentry-intro-9a643f56fbd0839767d7.js" as="script"/><link rel="preload" href="/app-3fca73a6fe24c2c87cbf.js" as="script"/><link rel="preload" href="/commons-7c4cf74b13a2a0b920dd.js" as="script"/><style type="text/css" id="server-side-jss">html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1344,82 +1344,160 @@ input:-webkit-autofill {
   .jss19 {
     padding: 2rem 3rem 2rem 3rem;
   }
-}</style><title data-react-helmet="true">[Docker-101] Tutorial 2 - PersonalBlog GatsbyJS Starter</title><meta data-react-helmet="true" name="description" content="PersonalBlog is a GatsbyJS starter."/><meta data-react-helmet="true" property="og:url" content="https://gatsby-starter-personal-blog.greglobinski.com/docker-2/"/><meta data-react-helmet="true" property="og:title" content="[Docker-101] Tutorial 2 - PersonalBlog GatsbyJS Starter"/><meta data-react-helmet="true" property="og:description" content="PersonalBlog is a GatsbyJS starter."/><meta data-react-helmet="true" property="og:image" content="/static/docker-228897b3f456dadba5ff45357df1955a-8764f.png"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="fb:app_id" content=""/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="greglobinski"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#ffffff"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><style id="gatsby-inlined-css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="#D0E0D8"/><meta name="apple-mobile-web-app-title" content="Lazywill"/><link rel="apple-touch-icon" href="/icons/apple-icon-57x57.png" sizes="57x57"/><link rel="apple-touch-icon" href="/icons/apple-icon-60x60.png" sizes="60x60"/><link rel="apple-touch-icon" href="/icons/apple-icon-72x72.png" sizes="72x72"/><link rel="apple-touch-icon" href="/icons/apple-icon-76x76.png" sizes="76x76"/><link rel="apple-touch-icon" href="/icons/apple-icon-114x114.png" sizes="114x114"/><link rel="apple-touch-icon" href="/icons/apple-icon-120x120.png" sizes="120x120"/><link rel="apple-touch-icon" href="/icons/apple-icon-144x144.png" sizes="144x144"/><link rel="apple-touch-icon" href="/icons/apple-icon-152x152.png" sizes="152x152"/><link rel="apple-touch-icon" href="/icons/apple-icon-180x180.png" sizes="180x180"/><link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/><link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png"/></head><body><noscript>You need to enable JavaScript to run this app!</noscript><div id="___gatsby"><div class="jss1"><main class="jss2"><div style="position:relative;overflow:hidden;width:100%;height:100%"><div style="position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;-webkit-overflow-scrolling:touch;margin-right:0;margin-bottom:0"><article class="jss4"><header class="jss5"><h1 class="jss6">[Docker-101] Tutorial 2</h1><h2 class="jss7">Deploy a Node.js application in Docker container</h2><div class="jss8">Sat, 18 Aug 2018</div></header><div class="jss9 jss10"><p>
+}</style><title data-react-helmet="true">Sentry Introduction - PersonalBlog GatsbyJS Starter</title><meta data-react-helmet="true" name="description" content="PersonalBlog is a GatsbyJS starter."/><meta data-react-helmet="true" property="og:url" content="https://gatsby-starter-personal-blog.greglobinski.com/sentry-intro/"/><meta data-react-helmet="true" property="og:title" content="Sentry Introduction - PersonalBlog GatsbyJS Starter"/><meta data-react-helmet="true" property="og:description" content="PersonalBlog is a GatsbyJS starter."/><meta data-react-helmet="true" property="og:image" content="/static/sentry-09453afd112e62d6803a4dab554cea89-8764f.png"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="fb:app_id" content=""/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="greglobinski"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#ffffff"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><style id="gatsby-inlined-css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="#D0E0D8"/><meta name="apple-mobile-web-app-title" content="Lazywill"/><link rel="apple-touch-icon" href="/icons/apple-icon-57x57.png" sizes="57x57"/><link rel="apple-touch-icon" href="/icons/apple-icon-60x60.png" sizes="60x60"/><link rel="apple-touch-icon" href="/icons/apple-icon-72x72.png" sizes="72x72"/><link rel="apple-touch-icon" href="/icons/apple-icon-76x76.png" sizes="76x76"/><link rel="apple-touch-icon" href="/icons/apple-icon-114x114.png" sizes="114x114"/><link rel="apple-touch-icon" href="/icons/apple-icon-120x120.png" sizes="120x120"/><link rel="apple-touch-icon" href="/icons/apple-icon-144x144.png" sizes="144x144"/><link rel="apple-touch-icon" href="/icons/apple-icon-152x152.png" sizes="152x152"/><link rel="apple-touch-icon" href="/icons/apple-icon-180x180.png" sizes="180x180"/><link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/><link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png"/></head><body><noscript>You need to enable JavaScript to run this app!</noscript><div id="___gatsby"><div class="jss1"><main class="jss2"><div style="position:relative;overflow:hidden;width:100%;height:100%"><div style="position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;-webkit-overflow-scrolling:touch;margin-right:0;margin-bottom:0"><article class="jss4"><header class="jss5"><h1 class="jss6">Sentry Introduction</h1><h2 class="jss7">An error reporting platform for your application</h2><div class="jss8">Sun, 19 Aug 2018</div></header><div class="jss9 jss10"><p>
   <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block; ; max-width: 500px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
   >
     <span
       class="gatsby-resp-image-background-image"
-      style="padding-bottom: 48.199999999999996%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAAB70lEQVQoz42QwW/SYBjG+2eoJz34L3hTiQczk12MmoUrmpiMXdUYOJmxxAkGMYoetkm2pG5opxNWXXCDzGEROlagUKuODShrS1tKYWtltPXrIJ5M5nt4vyfP9/7yvN8HGYZhmqbc6SCprclIHOgDVe2bxxZkTWvqrWnk5D2/7dErulK9n6BekxWlKa1uYDvVGi+IUlMu/fhJkCUgantsQ5Ra7bYFd/fbY/MxaAI5+zR66vH70/7IyFwMTW+tfUkGpkILS1H43Yc3ERTPFSYCz+eXoi9n4ZX4uqppg+SFTGl47vOJ4Crk/XRhKlYTRGBu5kk8X8gWit+yBNB5it5I44mvKQzPcg0BDICnWTA4Fanxsbi9Ru12u7/N/y7on3/T6/VARxAkHA4Doeu61Q29P/sXsZIZhqEoymJ0o67Q6mGnz7tcLp/PB3SOyMuyDMR+tyUeMLrRG8Dlctlutw9dGVpPJDM8cgc9N5u7y3Hs6KjTZrsYCoWWo+ily+edY86mIhT5BLEX25ayAxhFUY/HE3wRDPifrTBPbiNnvNjVTSJ9/doNh8MxMzPtnfSN3BxO41hHa2HVt6nqYoGLG6a1OcSybL1eF0Vhd6eiHHKL5EOqkQQXMAy73W6wLc/z4w889HcamBWZ/CVm2pp4FGz8AV9+8QeKn/JBAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+      style="padding-bottom: 45.42284219703575%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACBElEQVQoz1WS2W4TQRBF/Q4kTrzN5vHs+55Z7LFjjx0l2LIdMIklhIh45AGJP+APEL98qWkEEg9X3eruqr51qjqG4qFI50iDEmNOw6ArYnQ9xvBK+qcxZ0CVXKiiA5n2Cm9iPNIgDTWovA5FMGEqAclHpw3+q94Fj+6rIa7fcP9p0JXojoM00mHIARwKjMwMhVeicBKkRkAfaeB6Mjr6xEVJDkP3hrmsbhYI7AyRl9OaYpovEfs5IreCLvvIwlscZyvMgilqen+ar7AMYhiSg/6liI5nJfh4/oyHuwPe7Z9x2L7HI627+yP7oE36dHzB968/UKVrlEmD0/YTpl6CuRviUBEu+qxF0uLqKKJFbgp4ZoLEL4iDR25z+FaKCbHqX4ho6gNezt8Q2RVkOku8Gg+rE3aLLXZ5jpoq8CiudymgIxJYhWC3iVv4iuBgIti0N4mXz86KaEVq6M5G5FSsGXxvQm43uF99wF25xsyL/ySUOQuOlsMmOVpGDkPWscgmnvEaoVUh8xZwtRSunuFt84Rmtif3FmtYayYLl9DGLjHkiaG+wfP+J877X7gtvlCpMep8g5Icpd6cJbOUGMJAhdBXWNl5sGTngVmA709w9XpIyQQ2YjQ2MtlXIQ4NOGpKrhrk1MnAyBE7M5o9l0rhGfA2qEUS21NqRE2a07iY7K5N1q6/AUzKDIJlnJgiAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
     >
       <img
         class="gatsby-resp-image-image"
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
-        alt="docker-nodejs"
+        alt="sentry-banner"
         title=""
-        src="/static/docker-nodejs-8c605562363e910fcb8b7508a739a8c0-058ac.png"
-        srcset="/static/docker-nodejs-8c605562363e910fcb8b7508a739a8c0-931a2.png 200w,
-/static/docker-nodejs-8c605562363e910fcb8b7508a739a8c0-71e03.png 400w,
-/static/docker-nodejs-8c605562363e910fcb8b7508a739a8c0-058ac.png 500w"
-        sizes="(max-width: 500px) 100vw, 500px"
+        src="/static/sentry-banner-3010ad43f66a19278336c85b8e81c764-6cf1b.png"
+        srcset="/static/sentry-banner-3010ad43f66a19278336c85b8e81c764-dbbfd.png 200w,
+/static/sentry-banner-3010ad43f66a19278336c85b8e81c764-1cc64.png 400w,
+/static/sentry-banner-3010ad43f66a19278336c85b8e81c764-6cf1b.png 800w,
+/static/sentry-banner-3010ad43f66a19278336c85b8e81c764-f44ef.png 1147w"
+        sizes="(max-width: 800px) 100vw, 800px"
       />
     </span>
   </span>
   </p>
+<p><a href="https://github.com/getsentry/sentry">Sentry</a> is a an open-source error tracking platform that helps developer to mointor and fix crashes in real time. It supports most popular languages, including but not limited to Java, JavaScript, Node.js, Android, iOS and Python.</p>
+<h2>Why do we need Sentry</h2>
+<p>Common problems after we deploy our service on production environment:</p>
 <ol>
-<li>
-<p>Create <code class="language-text">Dockerfile</code></p>
-<div class="gatsby-highlight" data-language="text">
-      <pre class="language-text"><code class="language-text">FROM node:7-alpine
-
-# Create a directory
-RUN mkdir -p /src/app
-
-# To ensure that a future commands are executed in /src/app
-WORKDIR /src/app
-
-# Copy from &lt;host_path&gt; to &lt;container_path&gt;
-COPY . /src/app 
-
-RUN npm install
-
-EXPOSE 3000
-
-# will be run when container launch
-CMD npm start</code></pre>
-      </div>
-<p><code class="language-text">RUN</code> is an image build step, the state of the container after a RUN command will be committed to the docker image. A Dockerfile can have many RUN steps that layer on top of one another to build the image.</p>
-<p><code class="language-text">CMD</code> is the command the container executes by default when you launch the built image. A Dockerfile can only have one CMD. The CMD can be overridden when starting a container with docker run $image $other_command. </p>
-</li>
-<li>
-<p>Build docker images</p>
-<div class="gatsby-highlight" data-language="text">
-      <pre class="language-text"><code class="language-text">docker build -t nodejs:v1 .</code></pre>
-      </div>
-<div class="gatsby-highlight" data-language="text">
-      <pre class="language-text"><code class="language-text">$ docker images
-REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-nodejs              v1                  a365133f2e28        6 seconds ago       67.5MB</code></pre>
-      </div>
-</li>
-<li>
-<p>Run container with 80 port</p>
-<div class="gatsby-highlight" data-language="text">
-      <pre class="language-text"><code class="language-text">$ docker run -d -p 80:3000 --name node-app nodejs:v1
-3dbe413b3a1c00aadbf97a44516562e49df84c688a6b6eb872aa4b161bc678a4</code></pre>
-      </div>
-<div class="gatsby-highlight" data-language="text">
-      <pre class="language-text"><code class="language-text">$ docker ps
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
-3dbe413b3a1c        nodejs:v1           &quot;/bin/sh -c &#39;npm sta…&quot;   28 seconds ago      Up 28 seconds       0.0.0.0:80-&gt;3000/tcp   node-app</code></pre>
-      </div>
-</li>
-</ol></div><footer class="jss11"><div>Loading...</div><div class="jss12"><div class="jss15 jss13"><img alt="Benny O" src="/static/avatar.a8836946.jpg" class="jss17"/></div><div class="jss14"><p><strong>Benny O</strong></p></div></div><div id="post-comments" class="jss18"><div><div class="fb-comments" data-colorscheme="light" data-href="https://gatsby-starter-personal-blog.greglobinski.com/docker-2/" data-width="100%" data-skin="light"></div></div></div></footer></article><footer class="jss19"><div class="jss20"><ul>
+<li>We don’t know certain function is broken unless the user reports the crash to us actively. If the user don’t contact us, we don’t know there is a bug.</li>
+<li>The information shown in error logs are limited, which is hard to find the root cause quickly.</li>
+<li>Don’t have a systematic way to collect and keep track of unresolved bugs.</li>
+</ol>
+<p>Here are how Sentry solve these problems:</p>
+<ol>
+<li>Sentry can capture both frontend and backend erorrs, and send alert to developer team via Slack and email immediately.</li>
+<li>Sentry can capture additaionl context information when crash happens, such as user’s IP Address, broswer used, url visited, button clicked etc. Also provide detailed program stack trace to indicate which lines of code cause the error.</li>
+<li>Sentry provides differnt programming languages’ SDKs that can be integrated into your aplication. Error report can be sent easily using the SDK with a few line of code. Besides, Sentry create a new issue for every crash reported. The issue can be assigned to team members and marked as resolved.</li>
+</ol>
+<p><img src="https://blog.sentry.io/img/post-images/sentry-workflow/needs-triage.png" alt="sentry-dashboard"></p>
+<h2>What platforms do Sentry support</h2>
+<p>To report error to Sentry, you will need to use a language-specific SDK. Here is a list of supported languages:</p>
+<p>
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 81.74831892411143%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADC0lEQVQ4y01Uy2oUQRSdLxC/QFfuXOvCjUEUXOlGcONGCIIQdBkRdStoElB8bETwjRINaCAaxajxMYnGJDqaaMwkzsPpmX5WP6u7a463qmd6cqEfdak6995zTncBFHEqcOnZAsaKf+QS7TZdqQO/fBSxcR/dcLmJsdIw/phzea5cXsfgufOYXyypdUHebJ+j78wYTt54lwGqKr/hzBQQrR3JD1fZEk6/6sPU2u08N/nyDbZs34Vbdx9lgEIIQhBYWKlh/Z+h4NI0RZII2M2P8FkFNIDKy70r9UW4gZ0DhlGE6fefwFw3A0ySBI7DwGwLnsvgeR5kTm/p0Jo2Go0WfN9XRTRNg2Z5lDcQBqEC4ASImCOmZ7s7sozvpRKq1Ro2xvLvGgyTqXchqHMq5M4UwQ0dokN2TFeR+fCF6HHYbDaxY8dO9Pf352CVmoH9h0YwfPV5T5S3b/G1UEB9cDDjme4PNROFiVkMrWs9QDnO0MWLGB0dzQ9HPMGNO+9Q/LKa59JWC5Xjx+FNTaFrh3IY49jSX8y5YQ9Q8sCYC5cuIVLFoUtcuswm/lwEYahyzPOh+QFsWvOIQxAgJ34DmpCTKAk1VpBVRMeLicgso5RPYzDHRhwGZAKhcgnx6Fg2ojhRYPIsj2NYJGrEOS3bKGSe84HHB4HpsxnZBKsFwL4nwOV5JYnK+rVVFAf2oj75oDOyIIE5KpUKwnDDyIgs4PpW4OnhnOyyA2y6CpyY6gHay18xsWczVm5fQEd6RZeu6z1AOYrc7lsaQo8pE2fjpGjYIYIoVp3IcWQxvV5FTCNnmrSR0Lv0Lu+OLBV2bBumbcB2TLhErjzokQCm3iQeHcRJBiDoKaiTlHhDh2sJ5tNeKaoULjf2+9dV/Pim5z8HGb+WVmG0zNwinER51fBQD5L8m5ddBUGQCdnl0DIjHNg9jlMDH3LPGbqFayM38frFdJ5btEJsuzeLK6VG1iEhSu5M01Sg2PjpvRhfw/znZt6hrPh94Se0f83OjjZCInh01UCZRXmHnJO9GFMcyvgPCDeo09LutSMAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="sentry-platform"
+        title=""
+        src="/static/sentry-platform-8724ce51cbf8e610c0b0acb8f2cf8f0f-6cf1b.png"
+        srcset="/static/sentry-platform-8724ce51cbf8e610c0b0acb8f2cf8f0f-dbbfd.png 200w,
+/static/sentry-platform-8724ce51cbf8e610c0b0acb8f2cf8f0f-1cc64.png 400w,
+/static/sentry-platform-8724ce51cbf8e610c0b0acb8f2cf8f0f-6cf1b.png 800w,
+/static/sentry-platform-8724ce51cbf8e610c0b0acb8f2cf8f0f-22990.png 1041w"
+        sizes="(max-width: 800px) 100vw, 800px"
+      />
+    </span>
+  </span>
+  </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Languages</strong></td>
+<td><strong>Frameworks</strong></td>
+</tr>
+<tr>
+<td>JavaScript</td>
+<td>React, Angular, Angualr 2, Ember, Backbone, Vue, Electron</td>
+</tr>
+<tr>
+<td>Node</td>
+<td>Express, Koa, Sails and Loopback</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>markdown table Django, Flask, Tornado, Celery, RQ, Bottle, Pyramid, and Pylons</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>Monolog, Laravel, and Symfony</td>
+</tr>
+<tr>
+<td>Ruby</td>
+<td>Rails and Sinatra</td>
+</tr>
+<tr>
+<td>Go</td>
+<td>Integration with the native net/http module</td>
+</tr>
+<tr>
+<td>Cocoa</td>
+<td>Cocoa tvOS, macOS and iOS Objective-C and Swift</td>
+</tr>
+<tr>
+<td>Java</td>
+<td>Android, Log4j, Log4j 2, Logback, Spring and Google App Engine</td>
+</tr>
+<tr>
+<td>Kotlin</td>
+<td>available on Maven</td>
+</tr>
+<tr>
+<td>Sacala</td>
+<td>available on Maven</td>
+</tr>
+<tr>
+<td>.Net</td>
+<td>.NET and C#</td>
+</tr>
+<tr>
+<td>Perl</td>
+<td>available on CPAN</td>
+</tr>
+<tr>
+<td>Elixir</td>
+<td>available via Hex</td>
+</tr>
+</tbody>
+</table>
+<p>To get more details, please visit <a href="https://docs.sentry.io/clients/">SDKs – Sentry Documentation</a>.</p>
+<h2>What can Sentry do</h2>
+<p>Sentry’s rich features help you to indentify and debug errors quickly and accurately. The stack trace help you to locate the bug specific to which line of code trigger the error. Breadcrumbs give you insights on how to reproduce the error by recording all the actions performed by the user. Real time notification enable you to get latest alert when error happens. In the following section, more detailed examples will be given.</p>
+<h3>Stack Trace</h3>
+<p>The stack trace shows the sequence of function calls that leading to the error. For JavaScript, usaully it is difficult to debug minified code (e.g. UglifyJS), or transpiled code. Luckily, Sentry supports un-minifying JavaScript via Source Maps. It can let you view the original source code obtained from the stack traces in untransformed form instead of unreadable transformed form.</p>
+<p><img src="https://blog.sentry.io/img/post-images/sentry-workflow/stack-trace.png" alt="sentry-stacktrce"></p>
+<h3>Breadcrumbs</h3>
+<p> Breadcrumbs show a trail of events that happened prior to the error. It provides rich structured data that can help us to figure out how to reproduce the error. When Sentry is integrated with frontend web framework, breadcrumbs are automatically logged for events like network request and DOM element clikcing history. Apart from these events, you can also manually add new event in your code based on your own business logic. Breadcrumb is belived to be one of the most useful feature apart from stack trace. </p>
+<p><img src="https://blog.sentry.io/img/post-images/sentry-workflow/breadcrumbs.png" alt="sentry-breadcrumbs"></p>
+<h3>Tags and Additional Data</h3>
+<p>By labelling error with different tags, you can determine which errors are coming from a specific server, browser, release, user etc. Each tag can be used as a filter to group errors with the same type together. Moreover, you can also get some insight via seeing the distribution of tags for an issue.</p>
+<p><img src="https://blog.sentry.io/img/post-images/sentry-workflow/more-data.png" alt="sentry-additional-data"></p>
+<h3>Notification</h3>
+<p>Sentry provide differnt notification methods. Apart from email, it supports 3rd party integrations like Slack, HipChat, IRC, Telegram and Whatsapp etc. Sentry allows you to configure per-project alert rules to fully customize notifiation sending. Rules provide several conditions that you are able to configure. For example, you can set a rule to  send a notification every single time an new error happens.</p>
+<h2>References</h2>
+<ul>
+<li><a href="https://blog.sentry.io/2018/03/06/the-sentry-workflow">https://blog.sentry.io/2018/03/06/the-sentry-workflow</a></li>
+<li><a href="https://docs.sentry.io/">https://docs.sentry.io/</a></li>
+</ul></div><footer class="jss11"><div>Loading...</div><div class="jss12"><div class="jss15 jss13"><img alt="Benny O" src="/static/avatar.a8836946.jpg" class="jss17"/></div><div class="jss14"><p><strong>Benny O</strong></p></div></div><div id="post-comments" class="jss18"><div><div class="fb-comments" data-colorscheme="light" data-href="https://gatsby-starter-personal-blog.greglobinski.com/sentry-intro/" data-width="100%" data-skin="light"></div></div></div></footer></article><footer class="jss19"><div class="jss20"><ul>
 <li>2018 © Benny O</li>
 <li>built with React &#x26; Gatsby</li>
 <li>theme template <a href="https://github.com/greglobinski/gatsby-starter-personal-blog">gatsby-starter-personal-blog</a></li>
-</ul></div></footer></div><div style="position:absolute;height:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;left:2px;border-radius:3px"><div style="position:relative;display:block;height:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div><div style="position:absolute;width:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;top:2px;border-radius:3px"><div style="position:relative;display:block;width:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div></div></main><nav class="jss21 is-aside open "><div class="jss22"><div style="position:relative;overflow:hidden;width:100%;height:100%"><div style="position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;-webkit-overflow-scrolling:touch;margin-right:0;margin-bottom:0"><div class="jss23"><header></header><ul class="jss24"><li class="jss29 sentry" style="display:block"><a class="jss30" href="/sentry-intro/"><div class="jss31 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss32"><h1>Sentry Introduction</h1><h2>An error reporting platform for your application</h2></div></a></li><li class="jss29 docker" style="display:block"><a class="jss30 active" aria-current="page" href="/docker-2/"><div class="jss31 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss32"><h1>[Docker-101] Tutorial 2</h1><h2>Deploy a Node.js application in Docker container</h2></div></a></li><li class="jss29 docker" style="display:block"><a class="jss30" href="/docker-1/"><div class="jss31 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss32"><h1>[Docker-101] Tutorial 1</h1><h2>Deploy static website as container</h2></div></a></li><li class="jss29 casual" style="display:block"><a class="jss30" href="/hello-world/"><div class="jss31 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss32"><h1>Hello World</h1><h2>This is the first post of my blog</h2></div></a></li></ul></div></div><div style="position:absolute;height:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;left:2px;border-radius:3px"><div style="position:relative;display:block;height:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div><div style="position:absolute;width:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;top:2px;border-radius:3px"><div style="position:relative;display:block;width:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div></div></div></nav><div class="jss33"><div class="jss34"><button tabindex="0" class="jss42 jss36 jss35" type="button" aria-label="Back to list" title="Back to the list"><span class="jss41"><svg class="jss45" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path></g></svg></span><span class="jss52"></span></button><a tabindex="0" class="jss42 jss36 jss35" role="button" aria-label="Search" data-shape="closed" title="Search" href="/search/"><span class="jss41"><svg class="jss45 jss35" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></g></svg></span><span class="jss52"></span></a></div><div class="jss34"><nav class="jss59"><div><div><button tabindex="0" class="jss42 jss36 jss60" type="button" aria-label="Increase font size" aria-haspopup="true" title="Change font size"><span class="jss41"><svg class="jss45" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z"></path></g></svg></span><span class="jss52"></span></button></div><div class="jss61" style="position:absolute;pointer-events:none;opacity:0"><div class="jss62 jss66 jss63" style="opacity:0;transform:scale(0.75, 0.5625);transform-origin:0 0 0" id="font-menu-list"><ul class="jss89 jss90" role="menu"><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">150%<span class="jss52"></span></li><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">125%<span class="jss52"></span></li><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">100%<span class="jss52"></span></li></ul></div></div></div></nav><button tabindex="0" class="jss42 jss36" type="button" aria-label="Back to top" title="Scroll to top"><span class="jss41"><svg class="jss45 jss35" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path></g></svg></span><span class="jss52"></span></button></div></div><aside class="jss105"><a class="jss107" href="/"><div class="jss15 jss108"><img alt="Benny O" src="/static/avatar.a8836946.jpg" class="jss17"/></div></a><h3 class="jss106">Benny O<small>personal blog</small></h3><nav class="jss109"><div><div><button tabindex="0" class="jss42 jss36 jss110" type="button" aria-label="More" aria-haspopup="true"><span class="jss41"><svg class="jss45" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></g></svg></span><span class="jss52"></span></button></div><div class="jss111" style="position:absolute;pointer-events:none;opacity:0"><div class="jss62 jss66 jss63" style="opacity:0;transform:scale(0.75, 0.5625);transform-origin:0 0 0" id="menu-list"><ul class="jss89 jss90" role="menu"><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">Home<span class="jss52"></span></li><a style="display:block" tabindex="-1" href="/about/"><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">About<span class="jss52"></span></li></a><a style="display:block" tabindex="-1" href="/projects/"><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">My Projects<span class="jss52"></span></li></a></ul></div></div></div></nav></aside></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"0":"0-9cd895e2fd98b4b4f5bc.js","1":"1-9f67c3a7ff4f57033355.js","231608221292675":"app-3fca73a6fe24c2c87cbf.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","198517197184460":"component---src-templates-post-template-js-3455ffcd8aa62613f79d.js","235131596041995":"component---src-templates-page-template-js-e0434750f574a9276ef2.js","70144966829960":"component---src-pages-contact-js-188522869be9a9294407.js","35783957827783":"component---src-pages-index-js-aa9570313651ef926b5a.js","142807904292071":"component---src-pages-search-js-927838bdee9185d71ac4.js","60335399758886":"path----08fd7b47692eb6993666.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","144342403179678":"path---hello-world-a4a5fa53a83ff9f81f76.js","21427835567355":"path---docker-1-9c074f02380b16d20f70.js","74894535118400":"path---docker-2-42612b1f57ba0d18e459.js","273950069227526":"path---about-3333b8e6320767cf1e2b.js","170786371021445":"path---success-8c68f0ca03e76f055b0a.js","244371669076361":"path---sentry-intro-9a643f56fbd0839767d7.js","97786326051841":"path---projects-dc7c0226be602036db3d.js","184662623972074":"path---contact-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-206ac74de0d3aab26f03.js","254572558124955":"path---search-baba032589b2a65232ad.js","114276838955818":"component---src-layouts-index-js-0c19a18ab824f89f4998.js"}/*]]>*/</script><script>
+</ul></div></footer></div><div style="position:absolute;height:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;left:2px;border-radius:3px"><div style="position:relative;display:block;height:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div><div style="position:absolute;width:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;top:2px;border-radius:3px"><div style="position:relative;display:block;width:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div></div></main><nav class="jss21 is-aside open "><div class="jss22"><div style="position:relative;overflow:hidden;width:100%;height:100%"><div style="position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;-webkit-overflow-scrolling:touch;margin-right:0;margin-bottom:0"><div class="jss23"><header></header><ul class="jss24"><li class="jss29 sentry" style="display:block"><a class="jss30 active" aria-current="page" href="/sentry-intro/"><div class="jss31 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss32"><h1>Sentry Introduction</h1><h2>An error reporting platform for your application</h2></div></a></li><li class="jss29 docker" style="display:block"><a class="jss30" href="/docker-2/"><div class="jss31 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss32"><h1>[Docker-101] Tutorial 2</h1><h2>Deploy a Node.js application in Docker container</h2></div></a></li><li class="jss29 docker" style="display:block"><a class="jss30" href="/docker-1/"><div class="jss31 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss32"><h1>[Docker-101] Tutorial 1</h1><h2>Deploy static website as container</h2></div></a></li><li class="jss29 casual" style="display:block"><a class="jss30" href="/hello-world/"><div class="jss31 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss32"><h1>Hello World</h1><h2>This is the first post of my blog</h2></div></a></li></ul></div></div><div style="position:absolute;height:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;left:2px;border-radius:3px"><div style="position:relative;display:block;height:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div><div style="position:absolute;width:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;top:2px;border-radius:3px"><div style="position:relative;display:block;width:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div></div></div></nav><div class="jss33"><div class="jss34"><button tabindex="0" class="jss42 jss36 jss35" type="button" aria-label="Back to list" title="Back to the list"><span class="jss41"><svg class="jss45" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path></g></svg></span><span class="jss52"></span></button><a tabindex="0" class="jss42 jss36 jss35" role="button" aria-label="Search" data-shape="closed" title="Search" href="/search/"><span class="jss41"><svg class="jss45 jss35" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></g></svg></span><span class="jss52"></span></a></div><div class="jss34"><nav class="jss59"><div><div><button tabindex="0" class="jss42 jss36 jss60" type="button" aria-label="Increase font size" aria-haspopup="true" title="Change font size"><span class="jss41"><svg class="jss45" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z"></path></g></svg></span><span class="jss52"></span></button></div><div class="jss61" style="position:absolute;pointer-events:none;opacity:0"><div class="jss62 jss66 jss63" style="opacity:0;transform:scale(0.75, 0.5625);transform-origin:0 0 0" id="font-menu-list"><ul class="jss89 jss90" role="menu"><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">150%<span class="jss52"></span></li><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">125%<span class="jss52"></span></li><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">100%<span class="jss52"></span></li></ul></div></div></div></nav><button tabindex="0" class="jss42 jss36" type="button" aria-label="Back to top" title="Scroll to top"><span class="jss41"><svg class="jss45 jss35" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path></g></svg></span><span class="jss52"></span></button></div></div><aside class="jss105"><a class="jss107" href="/"><div class="jss15 jss108"><img alt="Benny O" src="/static/avatar.a8836946.jpg" class="jss17"/></div></a><h3 class="jss106">Benny O<small>personal blog</small></h3><nav class="jss109"><div><div><button tabindex="0" class="jss42 jss36 jss110" type="button" aria-label="More" aria-haspopup="true"><span class="jss41"><svg class="jss45" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></g></svg></span><span class="jss52"></span></button></div><div class="jss111" style="position:absolute;pointer-events:none;opacity:0"><div class="jss62 jss66 jss63" style="opacity:0;transform:scale(0.75, 0.5625);transform-origin:0 0 0" id="menu-list"><ul class="jss89 jss90" role="menu"><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">Home<span class="jss52"></span></li><a style="display:block" tabindex="-1" href="/about/"><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">About<span class="jss52"></span></li></a><a style="display:block" tabindex="-1" href="/projects/"><li tabindex="-1" class="jss42 jss95 jss98 jss102 jss103 jss93" role="menuitem">My Projects<span class="jss52"></span></li></a></ul></div></div></div></nav></aside></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"0":"0-9cd895e2fd98b4b4f5bc.js","1":"1-9f67c3a7ff4f57033355.js","231608221292675":"app-3fca73a6fe24c2c87cbf.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","198517197184460":"component---src-templates-post-template-js-3455ffcd8aa62613f79d.js","235131596041995":"component---src-templates-page-template-js-e0434750f574a9276ef2.js","70144966829960":"component---src-pages-contact-js-188522869be9a9294407.js","35783957827783":"component---src-pages-index-js-aa9570313651ef926b5a.js","142807904292071":"component---src-pages-search-js-927838bdee9185d71ac4.js","60335399758886":"path----08fd7b47692eb6993666.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","144342403179678":"path---hello-world-a4a5fa53a83ff9f81f76.js","21427835567355":"path---docker-1-9c074f02380b16d20f70.js","74894535118400":"path---docker-2-42612b1f57ba0d18e459.js","273950069227526":"path---about-3333b8e6320767cf1e2b.js","170786371021445":"path---success-8c68f0ca03e76f055b0a.js","244371669076361":"path---sentry-intro-9a643f56fbd0839767d7.js","97786326051841":"path---projects-dc7c0226be602036db3d.js","184662623972074":"path---contact-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-206ac74de0d3aab26f03.js","254572558124955":"path---search-baba032589b2a65232ad.js","114276838955818":"component---src-layouts-index-js-0c19a18ab824f89f4998.js"}/*]]>*/</script><script>
             
   
   if(true) {
@@ -1443,4 +1521,4 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
             wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
             wf.async = true;
             s.parentNode.insertBefore(wf, s);
-        })(document);</script><script>/*<![CDATA[*/["/commons-7c4cf74b13a2a0b920dd.js","/app-3fca73a6fe24c2c87cbf.js","/path---docker-2-42612b1f57ba0d18e459.js","/component---src-templates-post-template-js-3455ffcd8aa62613f79d.js","/component---src-layouts-index-js-0c19a18ab824f89f4998.js"].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/</script></body></html>
+        })(document);</script><script>/*<![CDATA[*/["/commons-7c4cf74b13a2a0b920dd.js","/app-3fca73a6fe24c2c87cbf.js","/path---sentry-intro-9a643f56fbd0839767d7.js","/component---src-templates-post-template-js-3455ffcd8aa62613f79d.js","/component---src-layouts-index-js-0c19a18ab824f89f4998.js"].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/</script></body></html>

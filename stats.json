@@ -9,8 +9,8 @@
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----2065a649ef3c256d7535.js",
-      "path----2065a649ef3c256d7535.js.map"
+      "path----08fd7b47692eb6993666.js",
+      "path----08fd7b47692eb6993666.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-188522869be9a9294407.js",
@@ -21,16 +21,16 @@
       "path---docker-2-42612b1f57ba0d18e459.js.map"
     ],
     "path---projects": [
-      "path---projects-bb660ca591640737c632.js",
-      "path---projects-bb660ca591640737c632.js.map"
+      "path---projects-dc7c0226be602036db3d.js",
+      "path---projects-dc7c0226be602036db3d.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b070da4c7e53429602a0.js",
-      "component---src-layouts-index-js-b070da4c7e53429602a0.js.map"
+      "component---src-layouts-index-js-0c19a18ab824f89f4998.js",
+      "component---src-layouts-index-js-0c19a18ab824f89f4998.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -67,14 +67,18 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-b8ebb4f6c9e2c4b8026f.js",
+      "app-3fca73a6fe24c2c87cbf.js",
       "build-js-styles.css",
-      "app-b8ebb4f6c9e2c4b8026f.js.map",
+      "app-3fca73a6fe24c2c87cbf.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
       "component---src-templates-page-template-js-e0434750f574a9276ef2.js",
       "component---src-templates-page-template-js-e0434750f574a9276ef2.js.map"
+    ],
+    "path---sentry-intro": [
+      "path---sentry-intro-9a643f56fbd0839767d7.js",
+      "path---sentry-intro-9a643f56fbd0839767d7.js.map"
     ],
     "path---search": [
       "path---search-baba032589b2a65232ad.js",
