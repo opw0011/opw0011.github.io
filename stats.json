@@ -9,8 +9,8 @@
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----08fd7b47692eb6993666.js",
-      "path----08fd7b47692eb6993666.js.map"
+      "path----1d903b84c5f87a281674.js",
+      "path----1d903b84c5f87a281674.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-188522869be9a9294407.js",
@@ -28,9 +28,13 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
+    "path---go-restful-api": [
+      "path---go-restful-api-cb16438873cd91d0ff00.js",
+      "path---go-restful-api-cb16438873cd91d0ff00.js.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-0c19a18ab824f89f4998.js",
-      "component---src-layouts-index-js-0c19a18ab824f89f4998.js.map"
+      "component---src-layouts-index-js-0cc0adbe58cec527205e.js",
+      "component---src-layouts-index-js-0cc0adbe58cec527205e.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -67,9 +71,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-168acbdc630124442e1c.js",
+      "app-ae1efd6cdb1a9dcd3bc8.js",
       "build-js-styles.css",
-      "app-168acbdc630124442e1c.js.map",
+      "app-ae1efd6cdb1a9dcd3bc8.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
