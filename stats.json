@@ -9,8 +9,12 @@
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----1d903b84c5f87a281674.js",
-      "path----1d903b84c5f87a281674.js.map"
+      "path----9b716583e4d387fce1bd.js",
+      "path----9b716583e4d387fce1bd.js.map"
+    ],
+    "path---go-orm": [
+      "path---go-orm-31b71982224099ee7083.js",
+      "path---go-orm-31b71982224099ee7083.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-188522869be9a9294407.js",
@@ -33,8 +37,8 @@
       "path---go-restful-api-cb16438873cd91d0ff00.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-0cc0adbe58cec527205e.js",
-      "component---src-layouts-index-js-0cc0adbe58cec527205e.js.map"
+      "component---src-layouts-index-js-08795523b6ad71337f3a.js",
+      "component---src-layouts-index-js-08795523b6ad71337f3a.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -71,9 +75,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-ae1efd6cdb1a9dcd3bc8.js",
+      "app-655d0d439f328159c41c.js",
       "build-js-styles.css",
-      "app-ae1efd6cdb1a9dcd3bc8.js.map",
+      "app-655d0d439f328159c41c.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
