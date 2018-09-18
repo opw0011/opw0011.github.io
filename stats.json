@@ -9,12 +9,12 @@
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----9b716583e4d387fce1bd.js",
-      "path----9b716583e4d387fce1bd.js.map"
+      "path----58b48bcc886bc3ef4fdb.js",
+      "path----58b48bcc886bc3ef4fdb.js.map"
     ],
     "path---go-orm": [
-      "path---go-orm-31b71982224099ee7083.js",
-      "path---go-orm-31b71982224099ee7083.js.map"
+      "path---go-orm-566d6503edf8d567aeb6.js",
+      "path---go-orm-566d6503edf8d567aeb6.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-188522869be9a9294407.js",
@@ -37,8 +37,8 @@
       "path---go-restful-api-cb16438873cd91d0ff00.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-12dec98d3d0b2260f56b.js",
-      "component---src-layouts-index-js-12dec98d3d0b2260f56b.js.map"
+      "component---src-layouts-index-js-c30c5d0f1fa16ebb913b.js",
+      "component---src-layouts-index-js-c30c5d0f1fa16ebb913b.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -51,6 +51,10 @@
     "path---hello-world": [
       "path---hello-world-a4a5fa53a83ff9f81f76.js",
       "path---hello-world-a4a5fa53a83ff9f81f76.js.map"
+    ],
+    "path---go-docker": [
+      "path---go-docker-44bb09566ccf448f4775.js",
+      "path---go-docker-44bb09566ccf448f4775.js.map"
     ],
     "commons": [
       "commons-7c4cf74b13a2a0b920dd.js",
@@ -75,9 +79,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-0a1110787b133029da1d.js",
+      "app-0e490818786fe2c9d550.js",
       "build-js-styles.css",
-      "app-0a1110787b133029da1d.js.map",
+      "app-0e490818786fe2c9d550.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
