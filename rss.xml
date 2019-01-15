@@ -1,4 +1,216 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Benny O]]></title><description><![CDATA[PersonalBlog is a GatsbyJS starter.]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 20 Sep 2018 15:57:34 GMT</lastBuildDate><item><title><![CDATA[Deploy Go App with Docker]]></title><description><![CDATA[Shipping a Go application to production environment is very easy. You can simply build the application into a executable file and then run…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/go-docker/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/go-docker/</guid><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Benny O]]></title><description><![CDATA[PersonalBlog is a GatsbyJS starter.]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 15 Jan 2019 17:58:59 GMT</lastBuildDate><item><title><![CDATA[Deploy Sentry with Docker]]></title><description><![CDATA[Sentry  is a an open-source error tracking platform that helps developer to mointor and fix crashes in real time. It supports most popular…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/sentry-docker/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/sentry-docker/</guid><content:encoded>&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 45.42284219703575%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACBElEQVQoz1WS2W4TQRBF/Q4kTrzN5vHs+55Z7LFjjx0l2LIdMIklhIh45AGJP+APEL98qWkEEg9X3eruqr51qjqG4qFI50iDEmNOw6ArYnQ9xvBK+qcxZ0CVXKiiA5n2Cm9iPNIgDTWovA5FMGEqAclHpw3+q94Fj+6rIa7fcP9p0JXojoM00mHIARwKjMwMhVeicBKkRkAfaeB6Mjr6xEVJDkP3hrmsbhYI7AyRl9OaYpovEfs5IreCLvvIwlscZyvMgilqen+ar7AMYhiSg/6liI5nJfh4/oyHuwPe7Z9x2L7HI627+yP7oE36dHzB968/UKVrlEmD0/YTpl6CuRviUBEu+qxF0uLqKKJFbgp4ZoLEL4iDR25z+FaKCbHqX4ho6gNezt8Q2RVkOku8Gg+rE3aLLXZ5jpoq8CiudymgIxJYhWC3iVv4iuBgIti0N4mXz86KaEVq6M5G5FSsGXxvQm43uF99wF25xsyL/ySUOQuOlsMmOVpGDkPWscgmnvEaoVUh8xZwtRSunuFt84Rmtif3FmtYayYLl9DGLjHkiaG+wfP+J877X7gtvlCpMep8g5Icpd6cJbOUGMJAhdBXWNl5sGTngVmA709w9XpIyQQ2YjQ2MtlXIQ4NOGpKrhrk1MnAyBE7M5o9l0rhGfA2qEUS21NqRE2a07iY7K5N1q6/AUzKDIJlnJgiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;sentry-banner&quot;
+        title=&quot;&quot;
+        src=&quot;/static/sentry-banner-3010ad43f66a19278336c85b8e81c764-6cf1b.png&quot;
+        srcset=&quot;/static/sentry-banner-3010ad43f66a19278336c85b8e81c764-dbbfd.png 200w,
+/static/sentry-banner-3010ad43f66a19278336c85b8e81c764-1cc64.png 400w,
+/static/sentry-banner-3010ad43f66a19278336c85b8e81c764-6cf1b.png 800w,
+/static/sentry-banner-3010ad43f66a19278336c85b8e81c764-f44ef.png 1147w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/getsentry/sentry&quot;&gt;Sentry&lt;/a&gt; is a an open-source error tracking platform that helps developer to mointor and fix crashes in real time. It supports most popular languages, including but not limited to Java, JavaScript, Node.js, Android, iOS and Python.&lt;/p&gt;
+&lt;p&gt;For more details, please visit &lt;a href=&quot;../sentry-intro/&quot;&gt;Sentry Introduction&lt;/a&gt; that I wrote in previous post.&lt;/p&gt;
+&lt;p&gt;In this tutorial, we will go through how to set up Sentry via Docker and how to rebuild docker image after installing additional plugin.&lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Sentry Server is written in Python. It uses Django as the web framework. Sentry also relies on the following services:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Postgres&lt;/li&gt;
+&lt;li&gt;Redis&lt;/li&gt;
+&lt;li&gt;Memcached&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sentry can be installed via Docker or via Python. We will only cover how to install via Docker in this tutorial.&lt;/p&gt;
+&lt;h2&gt;Prerequisite&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker 1.10.0+ &lt;a href=&quot;https://docs.docker.com/install/linux/docker-ce/ubuntu/&quot;&gt;(Installation Guide)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Docker Compose 1.6.0+ &lt;a href=&quot;https://docs.docker.com/compose/install/&quot;&gt;(Installation Guide)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Getting Started&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Visit &lt;a href=&quot;https://github.com/getsentry/onpremise&quot;&gt;Sentry On-Premise Github&lt;/a&gt;, and clone the repo to a directory&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git clone --depth=1 https://github.com/getsentry/onpremise.git&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open &lt;code class=&quot;language-text&quot;&gt;docker-compose.yml&lt;/code&gt;, we are going to customize the services we need.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;version: &amp;#39;3.4&amp;#39;
+
+x-defaults: &amp;amp;defaults
+  restart: unless-stopped
+  build: .
+  depends_on:
+    - redis
+    - postgres
+    - memcached
+    #- smtp
+
+  environment:
+    # Run `docker-compose run web config generate-secret-key`
+    # to get the SENTRY_SECRET_KEY value.
+    SENTRY_SECRET_KEY: &amp;#39;&amp;#39;
+    SENTRY_MEMCACHED_HOST: memcached
+    SENTRY_REDIS_HOST: redis
+    SENTRY_POSTGRES_HOST: postgres
+    SENTRY_EMAIL_HOST: smtp
+  volumes:
+    - sentry-data:/var/lib/sentry/files
+
+services:
+  #smtp:
+    #restart: unless-stopped
+    #image: tianon/exim4
+
+  memcached:
+    restart: unless-stopped
+    image: memcached:1.4
+
+  redis:
+    restart: unless-stopped
+    image: redis:3.2-alpine
+
+  postgres:
+    restart: unless-stopped
+    image: postgres:9.5
+    volumes:
+      - sentry-postgres:/var/lib/postgresql/data
+
+  web:
+    &amp;lt;&amp;lt;: *defaults
+    ports:
+      - &amp;#39;9000:9000&amp;#39;
+
+  cron:
+    &amp;lt;&amp;lt;: *defaults
+    command: run cron
+
+  worker:
+    &amp;lt;&amp;lt;: *defaults
+    command: run worker
+
+volumes:
+    sentry-data:
+    sentry-postgres:&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Since we do not want to host a SMTP server by ourselves (will shows you how to set up external SMTP later), so we can comment out all the SMTP related lines.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build and tag the Docker services. It will pull the required docker images specified in &lt;code class=&quot;language-text&quot;&gt;docker-compose.yml&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;Dockerfile&lt;/code&gt;, i.e. &lt;code class=&quot;language-text&quot;&gt;redis:3.2-alpine&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;postgres:9.5&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;memcached:1.4&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;sentry:9.0-onbuild&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker-compose build&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;After finish building the docker images, we have to generate a secrete key for Sentry&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker-compose run --rm web config generate-secret-key&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Add copy the key to &lt;code class=&quot;language-text&quot;&gt;docker-compose.yml&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;SENTRY_SECRET_KEY&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;After we have configured the key, we have to run data migration on the postgres database.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker-compose run --rm web upgrade&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;In the meantime, there will be interactive prompts to create an admin user account.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Starts all the services in detached mode.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker-compose up -d&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;By running &lt;code class=&quot;language-text&quot;&gt;docker ps&lt;/code&gt;, you should see 6 running containers as follows:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+d746f33fc02c        sentry_worker       &amp;quot;/entrypoint.sh run …&amp;quot;   8 days ago          Up 2 days           9000/tcp                 sentry_worker_1
+9f392974eb82        sentry_cron         &amp;quot;/entrypoint.sh run …&amp;quot;   8 days ago          Up 2 days           9000/tcp                 sentry_cron_1
+288c296596b4        sentry_web          &amp;quot;/entrypoint.sh run …&amp;quot;   8 days ago          Up 2 days           0.0.0.0:9000-&amp;gt;9000/tcp   sentry_web_1
+0e2b7144edce        postgres:9.5        &amp;quot;docker-entrypoint.s…&amp;quot;   8 days ago          Up 2 days           5432/tcp                 sentry_postgres_1
+2f1f93436a77        redis:3.2-alpine    &amp;quot;docker-entrypoint.s…&amp;quot;   8 days ago          Up 2 days           6379/tcp                 sentry_redis_1
+ed98daa7e684        memcached:1.4       &amp;quot;docker-entrypoint.s…&amp;quot;   8 days ago          Up 2 days           11211/tcp                sentry_memcached_1&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sentry can now be accessed via &lt;code class=&quot;language-text&quot;&gt;localhost:9000&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Set up mail server&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Edit &lt;code class=&quot;language-text&quot;&gt;config.yml&lt;/code&gt;, add the corresponding mail server settings:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;###############
+# Mail Server #
+###############
+mail.backend: &amp;#39;smtp&amp;#39;  # Use dummy if you want to disable email entirely
+mail.host: &amp;#39;smtp.gmail.com&amp;#39;
+mail.port: 587
+mail.username: &amp;#39;YOUR_EMAIL@gmail.com&amp;#39;
+mail.password: &amp;#39;EMAIL_PASSWORD&amp;#39;
+mail.use-tls: true
+mail.list-namespace: example.com
+# The email address to send on behalf of
+mail.from: &amp;#39;YOUR_EMAIL@gmail.com&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You have to stop and remove previous built containers and images&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker-compose down&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then rebuild, run migrations and restart services&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker-compose build # Build the services again after updating
+docker-compose run --rm web upgrade # Run new migrations
+docker-compose up -d # Recreate the services&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Google SSO&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/getsentry/sentry-auth-google&quot;&gt;GitHub - getsentry/sentry-auth-google: Google Apps SSO provider for Sentry&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Edit &lt;code class=&quot;language-text&quot;&gt;requirements.txt&lt;/code&gt;, this is the place for specifying dependencies for Python application. Add a new line:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Add plugins here
+https://github.com/getsentry/sentry-auth-google/archive/52020f577f587595fea55f5d05520f1473deaad1.zip&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open &lt;code class=&quot;language-text&quot;&gt;sentry.conf.py&lt;/code&gt;, and add Google SSO into the config file:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;SENTRY_FEATURES[&amp;#39;organizations:sso&amp;#39;] = True
+
+if &amp;#39;GOOGLE_CLIENT_ID&amp;#39; in os.environ:
+    GOOGLE_CLIENT_ID = env(&amp;#39;GOOGLE_CLIENT_ID&amp;#39;)
+    GOOGLE_CLIENT_SECRET = env(&amp;#39;GOOGLE_CLIENT_SECRET&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open &lt;code class=&quot;language-text&quot;&gt;docker-compose.yml&lt;/code&gt;, add add the &lt;code class=&quot;language-text&quot;&gt;GOOGLE_CLIENT_ID&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;GOOGLE_CLIENT_SECRET&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;GOOGLE_CLIENT_ID: &amp;#39;ID_HERE.apps.googleusercontent.com&amp;#39;
+GOOGLE_CLIENT_SECRET: &amp;#39;SECRET_HERE&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Deploy Go App with Docker]]></title><description><![CDATA[Shipping a Go application to production environment is very easy. You can simply build the application into a executable file and then run…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/go-docker/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/go-docker/</guid><content:encoded>&lt;p&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; ; max-width: 450px; margin-left: auto; margin-right: auto;&quot;
